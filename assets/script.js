@@ -11,8 +11,22 @@ function mudacor() {
         break;
  
         case "red":
-        caixa.style.backgroundColor = "blue";
+        caixa.style.backgroundColor = "white";
          break;
+
+
+         case "white":
+            caixa.style.backgroundColor = "yellow";
+             break;
+     
+         
+         case "yellow":
+            caixa.style.backgroundColor = "green";
+             break;
+
+             case "green":
+                caixa.style.backgroundColor = "blue";
+                 break;
     }
   }
  
@@ -52,16 +66,17 @@ function mudacor() {
     switch(caixa.style.backgroundColor) {
         case "":
         case "red":
-        caixa.style.backgroundColor = "chocolate";
+        caixa.style.backgroundColor = "black";
         break;
  
-        case "chocolate":
+        case "black":
         caixa.style.backgroundColor = "blue";
         break;
  
         case "blue":
         caixa.style.backgroundColor = "green";
         break;
+
  
         case "green":
         caixa.style.backgroundColor = "yellow";
