@@ -1,7 +1,18 @@
 <html>
 <head>
     <script>
-    
+    function bandeirola(){
+        var objeto ={"franca":["blue","white","red"],
+         "belgica":["black","yellow","red"],
+         "italia":["green","white","red"] };
+        console.log("funciiionas")
+        var what = document.getElementById("what")
+        console.log(what.value)
+        console.log(objeto[what.value])
+    }
+
+
+
 function eu(){
    
     var inte=999999998;
@@ -9,7 +20,6 @@ function eu(){
     var stlig="ze da rua";
    // var lista=[18 , 289 , 8233, "b"];
     var lista=["blue","white","red"];
-var objeto ={"franca":["blue","white","red"], "belgica":["black","yellow","red"] };
     var objeto = {"campo": "campinho", "outrocampo":86, "franca":lista};
 
 console.log(objeto);
@@ -27,5 +37,12 @@ console.log(dea);
 </head>
 <body>
     eu
+    <select onchange="bandeirola()" id="what">
+        
+    <option value="franca">frança</option>
+    <option  value="italia">italia</option>
+    
+
+    </select>
 </body>
 </html>
