@@ -1,5 +1,17 @@
 <html>
 <head>
+<style>
+    .flexbox {
+        display: flex;
+        width: 400px;
+        height: 250px;
+        border: 1px solid black;
+    }
+    .bandeira {
+        width: 33%;
+        height: 100%;
+    }
+</style>
     <script>
     function bandeirola(){
         var objeto ={"franca":["blue","white","red"],
@@ -42,7 +54,12 @@ console.log(dea);
     <option value="franca">frança</option>
     <option  value="italia">italia</option>
     
-
     </select>
+    <hr/>
+    <div class='flexbox'>
+        <div id='bandeira1' class='bandeira'></div>
+        <div id='bandeira2' class='bandeira'></div>
+        <div id='bandeira3' class='bandeira'></div>
+    </div>
 </body>
 </html>
